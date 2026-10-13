@@ -1,6 +1,7 @@
 name: Deploy ke cPanel
 
 on:
+  workflow_dispatch:
   push:
     branches: [main]
   schedule:
